@@ -978,16 +978,16 @@ export default function Home() {
   ];
 
   const mockHighScores: Score[] = [
-    { moves: 45, time: 120, gridSize: 3, date: "2024-01-15T10:30:00.000Z" },
-    { moves: 52, time: 95, gridSize: 3, date: "2024-01-14T14:20:00.000Z" },
-    { moves: 89, time: 245, gridSize: 4, date: "2024-01-13T16:45:00.000Z" },
-    { moves: 67, time: 180, gridSize: 3, date: "2024-01-12T11:15:00.000Z" },
-    { moves: 134, time: 420, gridSize: 4, date: "2024-01-11T13:30:00.000Z" },
-    { moves: 98, time: 300, gridSize: 4, date: "2024-01-10T09:45:00.000Z" },
-    { moves: 156, time: 520, gridSize: 5, date: "2024-01-09T15:20:00.000Z" },
-    { moves: 78, time: 210, gridSize: 3, date: "2024-01-08T12:10:00.000Z" },
-    { moves: 201, time: 680, gridSize: 5, date: "2024-01-07T17:30:00.000Z" },
-    { moves: 112, time: 350, gridSize: 4, date: "2024-01-06T10:45:00.000Z" },
+    { moves: 45, time: 120, gridSize: 3, date: "2025-05-22T10:30:00.000Z" },
+    { moves: 52, time: 95, gridSize: 3, date: "2025-05-21T14:20:00.000Z" },
+    { moves: 89, time: 245, gridSize: 4, date: "2025-05-20T16:45:00.000Z" },
+    { moves: 67, time: 180, gridSize: 3, date: "2025-05-19T11:15:00.000Z" },
+    { moves: 134, time: 420, gridSize: 4, date: "2025-05-18T13:30:00.000Z" },
+    { moves: 98, time: 300, gridSize: 4, date: "2025-05-17T09:45:00.000Z" },
+    { moves: 156, time: 520, gridSize: 5, date: "2025-05-16T15:20:00.000Z" },
+    { moves: 78, time: 210, gridSize: 3, date: "2025-05-15T12:10:00.000Z" },
+    { moves: 201, time: 680, gridSize: 5, date: "2025-05-14T17:30:00.000Z" },
+    { moves: 112, time: 350, gridSize: 4, date: "2025-05-13T10:45:00.000Z" },
   ];
 
   const handleImageLoad = (success: boolean) => {
