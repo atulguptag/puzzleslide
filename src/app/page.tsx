@@ -108,6 +108,7 @@ interface SettingsPanelProps {
   availableImages: ImageOption[];
   imageLoaded: boolean;
   initGame: (forceShuffling: boolean) => void;
+  playSound: (soundType: "slide" | "win" | "click") => void;
 }
 
 const ImageContainer: React.FC<{
@@ -735,6 +736,7 @@ const SettingsPanel = React.memo(
     availableImages,
     imageLoaded,
     initGame,
+    playSound,
   }: SettingsPanelProps) => {
     if (typeof document === "undefined") return null;
 
@@ -1351,6 +1353,7 @@ export default function Home() {
             availableImages={availableImages}
             imageLoaded={imageLoaded}
             initGame={initGame}
+            playSound={playSound}
           />
         )}
       </AnimatePresence>
