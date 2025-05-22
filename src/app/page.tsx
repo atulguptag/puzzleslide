@@ -63,6 +63,7 @@ interface InfoModalProps {
   isOpen: boolean;
   onClose: () => void;
   isDarkMode: boolean;
+  playSound: (soundType: "slide" | "win" | "click") => void;
 }
 
 interface GameWonModalProps {
